@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-//@ConfigurationProperties(prefix = "appconfig")
+@ConfigurationProperties(prefix = "appconfig")
 public class AppConfig {
 
     private String appName;
