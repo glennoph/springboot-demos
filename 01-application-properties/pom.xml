@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>go.springboot.rest</groupId>
-	<artifactId>restdemo</artifactId>
+	<artifactId>application-properties</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>restdemo</name>
 	<description>Demo project for Spring Boot rest</description>
