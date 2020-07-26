@@ -1,0 +1,2 @@
+homeController:
+  msg: "hello from application yml"
