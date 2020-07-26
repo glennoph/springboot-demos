@@ -24,7 +24,7 @@ public class WebApplicationTests {
     public void expectDefaultMessage() throws Exception {
         this.mockMvc.perform(get("/")).andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString("hello from application properties")));
+                .andExpect(content().string(containsString("hello from application yml")));
     }
 
 }
