@@ -1,0 +1,10 @@
+homeController:
+  msg: "hello from application yml"
+
+
+appconfig:
+  app-name: Application name
+  app-description: ${appconfig.app-name} is a spring boot component
+  app-first-name: joe
+  app-email: joe@springboot.org
+
