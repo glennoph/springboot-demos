@@ -8,3 +8,10 @@ appconfig:
   app-first-name: joe
   app-email: joe@springboot.org
 
+environments:
+  development:
+    prop1: dev prop1
+    prop2: dev prop2
+  test:
+    prop1: test prop1
+    prop2: test prop2

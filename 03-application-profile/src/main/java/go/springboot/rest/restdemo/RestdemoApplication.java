@@ -14,9 +14,12 @@ public class RestdemoApplication {
 
 		ApplicationContext ctx = SpringApplication.run(RestdemoApplication.class, args);
 
-		AppProfileController appProfile = (AppProfileController) ctx.getBean("appProfile");
+		AppProfileController appProfile = (AppProfileController) ctx.getBean("appProfileController");
 		System.out.println(appProfile.toString());
 
+
+		// list the name of the datasource bean
+		System.out.println("datasource name: " + ctx.getBean("datasource").toString() );
 	}
 
 
