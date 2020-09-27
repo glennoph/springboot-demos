@@ -13,3 +13,4 @@ appconfig:
   app-first-name: joe
   app-email: joe@springboot.org
 ```
+## running the application will print the pojo values in the log
